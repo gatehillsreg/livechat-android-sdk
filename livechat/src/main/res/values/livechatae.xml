@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="livechatae_background">#FFFFFF</color>
+
+    <style name="LiveChatAE.Theme" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/livechatae_background</item>
+        <item name="android:statusBarColor">@color/livechatae_background</item>
+        <item name="android:navigationBarColor">@color/livechatae_background</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowAnimationStyle">@style/LiveChatAE.Animation</item>
+    </style>
+
+    <style name="LiveChatAE.Animation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/livechatae_slide_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/livechatae_hold</item>
+        <item name="android:activityCloseEnterAnimation">@anim/livechatae_hold</item>
+        <item name="android:activityCloseExitAnimation">@anim/livechatae_slide_out</item>
+    </style>
+
+    <string name="livechatae_chat">Chat</string>
+    <string name="livechatae_unread">%d unread</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="livechatae_background">#0F172A</color>
+
+    <style name="LiveChatAE.Theme" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/livechatae_background</item>
+        <item name="android:statusBarColor">@color/livechatae_background</item>
+        <item name="android:navigationBarColor">@color/livechatae_background</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowAnimationStyle">@style/LiveChatAE.Animation</item>
+    </style>
+</resources>
